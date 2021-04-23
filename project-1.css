@@ -1,4 +1,63 @@
-#body{
-    display: flex;
-
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    /* height: 100vh;
+    width: 100vw; */
 }
+.a{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 50vh;
+}
+.a1{
+    padding-top: 10px;
+    background-color:lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    width: 900px;
+    border :7px solid whitesmoke ;
+    border-radius: 10px 10px 10px 10px;
+}
+.a21{
+    display: flex;
+    flex-direction: row;
+    
+}
+.a22{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    padding-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: lightblue;
+    color: black;
+    height: 50px;
+    width: 170px;
+    border-radius: 20px;
+    border : 5px solid whitesmoke;
+}
+h2:hover{
+    background-color: rgb(87, 134, 221);
+}
+.a3{
+    height: 50px;
+    width: 80px;
+    block-size: 60px;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-left: 1250px;
+    
+}
+.a3:active{
+    color: rgb(12, 97, 97);
+    background-color: darkgray;
+}
+

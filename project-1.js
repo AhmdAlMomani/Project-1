@@ -9,6 +9,7 @@ const questions =[`A magnet would most likely attract which of the following?`,
 `A person who is not a banker and lends money at an extremely high interest rate is known as what?`,
 `A common piece of advice goes "be there or be" what?`
 ];
+
 const options =[[`metal`,`plastic`,`wood`,`the wrong mane`],
 [`A pretzel`,`An apple`,`A mint`,`A photo of Wolf Blitzer`],
 [`Your honor`,`Your holiness`,`You da man!`,`Your eminence`],
@@ -21,7 +22,22 @@ const options =[[`metal`,`plastic`,`wood`,`the wrong mane`],
 [`Square`,`Bare`,`All alone as usual`,`Aware`]
 ];
 
-const correctAnsers =[`metal`,`A mint`,`Your honor`,`Snoring`,`Your passport`,
-`Limp`,`The North and the South`,`Money`,]
+const correctAnswers =[`metal`,`A mint`,`Your honor`,`Snoring`,`Your passport`,
+`Limp`,`The North and the South`,`Money`,];
+
+const a1 = document.querySelector(".a1");
+a1.innerText("")
 
 
+// const whoWantsToBeMillionaire = (Array)=>{
+//     for(let i=0;i<Array.length;i++){
+
+//         if (questions[0]===options[0]){
+
+//         }
+
+//     }
+
+
+
+// }
